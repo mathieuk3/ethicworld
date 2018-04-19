@@ -21,8 +21,8 @@ public class GetDataControllerTest {
     @Test
     public void getCompByIdTest() throws IOException {
         Comp c = getDataService.getCompById(1L);
-        Assert.assertTrue(c.getName().contains("Monsanto"));
-        Assert.assertFalse(c.getName().contains("Lu"));
+        Assert.assertTrue(c.getName().contains("FakeComp1"));
+        Assert.assertFalse(c.getName().contains("FakeComp2"));
 
     }
 }

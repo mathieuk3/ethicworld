@@ -1,11 +1,16 @@
 package com.mkcorp.ethicworld.beans;
 
+import org.neo4j.ogm.annotation.Id;
+import org.neo4j.ogm.annotation.NodeEntity;
+
+@NodeEntity
 public class Comp {
+    @Id
     private long id;
     private String name;
     private long nbEmps;
 
-    public Comp() {
+    private Comp() {
     }
 
     public Comp(long id, String name, long nbEmps) {
