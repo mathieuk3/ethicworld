@@ -61,7 +61,11 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.13</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-ogm-bolt-driver</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 
 	</dependencies>
 
